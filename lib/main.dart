@@ -4,8 +4,8 @@ import 'Screens/loginScreen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Color(0xFF3A5BB8), // Set this to your background color
-    statusBarIconBrightness: Brightness.light, // Adjust icon brightness as needed
+    statusBarColor: Color(0xFF3A5BB8),
+    statusBarIconBrightness: Brightness.light,
   ));
 
   runApp(const MyApp());
